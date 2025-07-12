@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("./assets/bg.jpg");
     background-repeat: no-repeat;
@@ -7,8 +13,16 @@ body {
     color: white;
 }
 
-body * {
+body *, :root {
     font-family: "Inter";
     line-height: 160%;
 }
 
+header {
+    padding-top: 2rem; /*32px*/
+    text-align: center;
+}
+
+header img {
+    width: 15rem;
+}
