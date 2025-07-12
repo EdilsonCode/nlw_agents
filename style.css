@@ -6,3 +6,9 @@ body {
     background-color: #121214;
     color: white;
 }
+
+body * {
+    font-family: "Inter";
+    line-height: 160%;
+}
+
