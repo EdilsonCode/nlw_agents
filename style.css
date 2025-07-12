@@ -54,3 +54,20 @@ section p {
     letter-spacing: -0.18px;
     color: #A1A1AA;
 }
+
+/* Animações */
+main section {
+    opacity: 0;
+    transform: translateY(2rem);
+
+    animation-name: apper;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards; /* assim que terminar a animação fique parado */
+}
+
+@keyframes apper {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
